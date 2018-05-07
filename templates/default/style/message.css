@@ -1,0 +1,19 @@
+
+.subCont{line-height:26px;color:#666; font-size: 14px; float: left; padding:15px; width:845px; min-height: 394px;}
+.dyCont{line-height:26px;color:#666; float: left; padding:10px;}
+
+/*留言栏目*/
+.msgtitle{display:block;padding-bottom:5px;font-size:14px;font-weight:bold;margin-top: 10px}
+.message_block{color:#666;}
+.message_block p{padding:12px;}
+.msg_input{width:400px;border:1px solid #ccc;padding:8px 9px;background:#fff;font-size:13px;color:#888;-webkit-box-shadow:0px 2px 0px 0px rgba(0, 0, 0, 0.03);box-shadow:0px 2px 0px 0px rgba(0, 0, 0, 0.03);border-radius:2px;}
+.msg_input_on{width:400px;border:1px solid #8cd1ff;background:#f1f9ff;padding:8px 9px;-webkit-box-shadow:0px 2px 0px 0px rgba(0, 0, 0, 0.03);box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);border-radius:2px;font-size:13px;color:#888;}
+.message_labes{font-size:14px;}
+.message_title{height:34px;line-height:34px;background:#f6f9fb;padding:0 12px;}
+.message_title h2{color:#376b88;font-size:14px;float:left;}
+.message_title span{float:right;font-weight:bold;color:#999;}
+.message_info{color:#8ea6b6;text-align:right;}
+.message_replay{background:#f5f5f5;padding:0 12px;}
+.msg_btn_area{margin:16px 0;text-align:right;}
+.msg_btn_area a{display:inline-block;padding:5px 15px;background:#007137;color:#fff;text-align:center;font-family:"宋体";font-size:14px;overflow:hidden;cursor:pointer;font-weight:bold;}
+.msgflag{margin-left:4px;font-size:12px;color:#900;}

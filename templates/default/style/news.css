@@ -1,0 +1,51 @@
+.subCont{
+    line-height: 26px;
+    color: #666;
+    font-size: 14px;
+    float: left;
+    padding: 15px;
+    width: 845px;
+    min-height: 394px;
+}
+
+.subCont .sec_news_list{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.subCont .sec_news_list li{
+    height: 50px;
+    line-height: 25px;
+    border-bottom: 1px solid #eff2f4;
+    padding: 6px 0 5px 0;
+    color: #A0A0A0;
+}
+
+.subCont .sec_news_list li .sec_news_title a{
+    float: left;
+    color: #666666;
+    font-weight: bold;
+}
+
+.subCont .sec_news_list li .hits{
+    float: right;
+}
+
+.subCont .sec_news_list li .time{
+    float: left;
+}
+
+.subCont .sec_news_list li .newsType{
+    float: left;
+    margin-left: 12px;
+}
+
+.subCont .sec_news_list li .newsType a{
+    text-decoration: underline;
+    color: #A0A0A0;
+}
+
+
+
+

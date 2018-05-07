@@ -1,0 +1,46 @@
+.question{
+    margin-top: 90px;
+}
+
+.q_title{
+    text-align: center;
+}
+
+.question_list{
+    margin-top: 60px;
+}
+
+.question_list ul{
+
+}
+
+.question_list ul li{
+    margin: 30px 0;
+}
+
+.question_list ul li a{
+    display: block;
+    font-weight: 700;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.question_list ul li a:hover{
+    text-decoration: underline;
+    color: #0674FF;
+}
+
+.question_list ul li span{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #888888;
+    line-height: 20px;
+
+    padding-left: 25px;
+    padding-top: 15px;
+}

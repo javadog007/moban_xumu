@@ -1,0 +1,53 @@
+.content .third_title{
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+}
+
+.content .third_info{
+    width: 400px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    color: #666;
+}
+
+.content .third_info small{
+    margin-left: 8px;
+    margin-right: 3px;
+    color: #999;
+    font-size: 12px;
+}
+
+
+.content .third_info .text{
+    padding: 0 20px;
+}
+
+.content .third_info .author{
+    text-align: right;
+    color: #999;
+}
+
+/* 三级页面 */
+.content .desc{
+    margin: 20px 0 15px;
+    padding: 5px 10px;
+    line-height: 20px;
+    border: 1px solid #f4e4b4;
+    background: #ffffff;
+}
+
+.content #textarea{
+    padding: 0 20px;
+}
+
+.content .author{
+    text-align: right;
+    color: #999;
+}

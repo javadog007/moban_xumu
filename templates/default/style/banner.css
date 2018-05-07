@@ -1,0 +1,39 @@
+/*banner*/
+.banner{
+    overflow: hidden;
+    position: relative;
+    height: 496px;
+}
+
+.banner .hd{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    z-index: 1;
+    margin-right: 20px;
+}
+
+.banner .hd ul{
+
+}
+
+.banner .hd ul li{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    float:left;
+    margin: 0 6px;
+    background: #FFFFFF;
+}
+
+.banner .hd ul li.on{
+    background: #316db5;
+}
+
+.banner .bd{
+    width: 100%;
+}
+
+.banner .bd ul li a img{
+    width: 100%;
+}

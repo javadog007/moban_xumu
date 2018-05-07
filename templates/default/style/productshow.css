@@ -1,0 +1,82 @@
+.content .showimg{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.content .showimg a{
+    color: #333;
+}
+
+.content .showimg a img{
+    border: 1px solid #ccc;
+    padding: 1px;
+    max-height: 400px;
+    margin-left: 40px;
+}
+
+.content .contentTile{
+    font-weight: bold;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    color: #2f2f2f;
+    line-height: 24px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.content .text{
+    padding: 0 20px;
+}
+
+.content .third_title{
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+}
+
+.content .third_info{
+    width: 400px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    color: #666;
+}
+
+.content .third_info small{
+    margin-left: 8px;
+    margin-right: 3px;
+    color: #999;
+    font-size: 12px;
+}
+
+
+.content .third_info .text{
+    padding: 0 20px;
+}
+
+.content .third_info .author{
+    text-align: right;
+    color: #999;
+}
+
+.content .desc{
+    margin: 20px 0 15px;
+    padding: 5px 10px;
+    line-height: 20px;
+    border: 1px solid #f4e4b4;
+    background: #ffffff;
+}
+
+.content #textarea{
+    padding: 0 20px;
+}
+
+.content .author{
+    text-align: right;
+    color: #999;
+}

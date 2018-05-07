@@ -1,0 +1,22 @@
+.page_list{
+    width: 100%;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    /*font-family: 'Arial Black';*/
+    font-size: 12px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.page_list a{
+    display: inline-block;
+    color: #898989;
+    border: 1px solid #e8e8e8;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 0 8px;
+    margin: 0 1px;
+}
