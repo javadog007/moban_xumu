@@ -35,7 +35,7 @@
 <?php require_once('header.php'); ?>
 <?php require_once('banner.php'); ?>
 
-<div class="pinzhong">
+<div class="pinzhong mt40">
     <div class="big-title">
         <span>养殖品种</span>
     </div>
@@ -46,7 +46,7 @@
 
     <div class="pingzhong-list normal-list clear">
         <ul>
-            <li  style="width: 25%">
+            <li>
                 <div class="pingzhong-pics normal-pics">
                     <a href="">
                         <img src="templates/default/images/niu1.jpg" alt="" class="nativePic">
@@ -118,7 +118,7 @@
 
 </div><!-- pinzhong end -->
 
-<div class="base-show">
+<div class="base-show mt30">
     <div class="big-title">
         <span>基地展示</span>
     </div>

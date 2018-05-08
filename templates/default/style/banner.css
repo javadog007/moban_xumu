@@ -2,7 +2,7 @@
 .banner{
     overflow: hidden;
     position: relative;
-    height: 496px;
+    height: 476px;
 }
 
 .banner .hd{
@@ -23,11 +23,11 @@
     border-radius: 20px;
     float:left;
     margin: 0 6px;
-    background: #FFFFFF;
+    background: #8A8A85;
 }
 
 .banner .hd ul li.on{
-    background: #316db5;
+    background: #1E140E;
 }
 
 .banner .bd{
