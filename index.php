@@ -306,7 +306,7 @@
 
 </div><!-- 实力保障 结束 -->
 
-<div class="yangzhi">
+<div class="yangzhi mt40">
     <div class="big-title">
         <span>养殖技术</span>
     </div>
@@ -461,7 +461,7 @@
 
 </div> <!-- 购买流程 结束 -->
 
-<div class="aboutUs">
+<div class="aboutUs mt40">
     <div class="big-title">
         <span>关于我们</span>
     </div>

@@ -13,19 +13,19 @@
                 </li>
 
                 <li>
-                    <a href="./">养殖品种</a>
+                    <a href="product.php?cid=1">养殖品种</a>
                 </li>
                 <li>
-                    <a href="./">基地展示</a>
+                    <a href="product.php?cid=4">基地展示</a>
                 </li>
                 <li>
-                    <a href="./">养殖技术</a>
+                    <a href="news.php?cid=7">养殖技术</a>
                 </li>
                 <li>
-                    <a href="./">关于我们</a>
+                    <a href="info.php?cid=10">关于我们</a>
                 </li>
                 <li>
-                    <a href="./">联系我们</a>
+                    <a href="info.php?cid=11">联系我们</a>
                 </li>
             </ul>
         </div>

@@ -20,3 +20,9 @@
     padding: 0 8px;
     margin: 0 1px;
 }
+
+.page_list a.on{
+    background: #FC3363;
+    color: #ffffff;
+
+}

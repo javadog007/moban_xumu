@@ -5,16 +5,16 @@ $(function(){
 </script>
 
 <?php
-    if(GetParentId($cid) == 14){
+    if(GetParentId($cid) == 1){
 ?>
 <div class="info_left">
     <div class="left_title">
-        <span><?php echo GetParentClassName(14);?></span>
+        <span><?php echo GetParentClassName(1);?></span>
     </div>
     <div class="left_list">
         <ul>
             <?php
-            $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=14 AND checkinfo=true ORDER BY orderid ASC");
+            $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=1 AND checkinfo=true ORDER BY orderid ASC");
             while($row = $dosql->GetArray())
             {
                 ?>
@@ -41,16 +41,16 @@ $(function(){
     </div>
 </div>
     <?php
-}elseif(GetParentId($cid) == 17) {
+}elseif(GetParentId($cid) == 4) {
     ?>
     <div class="info_left">
         <div class="left_title">
-            <span><?php echo GetParentClassName(17);?></span>
+            <span><?php echo GetParentClassName(4);?></span>
         </div>
         <div class="left_list">
             <ul>
                 <?php
-                $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=17 AND checkinfo=true ORDER BY orderid ASC");
+                $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=4 AND checkinfo=true ORDER BY orderid ASC");
                 while ($row = $dosql->GetArray()) {
                     ?>
                     <?php
@@ -79,16 +79,16 @@ $(function(){
     </div>
 
     <?php
-}elseif(GetParentId($cid) == 20) {
+}elseif(GetParentId($cid) == 7) {
         ?>
         <div class="info_left">
             <div class="left_title">
-                <span><?php echo GetParentClassName(20);?></span>
+                <span><?php echo GetParentClassName(7);?></span>
             </div>
             <div class="left_list">
                 <ul>
                     <?php
-                    $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=20 AND checkinfo=true ORDER BY orderid ASC");
+                    $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=7 AND checkinfo=true ORDER BY orderid ASC");
                     while ($row = $dosql->GetArray()) {
                         ?>
                         <?php
@@ -117,11 +117,11 @@ $(function(){
         </div>
 
         <?php
-    }elseif(GetParentId($cid) == 23) {
+    }elseif(GetParentId($cid) == 10) {
         ?>
         <div class="info_left">
             <div class="left_title">
-                <span><?php echo GetParentClassName(23);?></span>
+                <span><?php echo GetParentClassName(10);?></span>
             </div>
             <div class="left_list">
                 <ul>
@@ -155,16 +155,16 @@ $(function(){
         </div>
 
         <?php
-    }elseif(GetParentId($cid) == 29) {
+    }elseif(GetParentId($cid) == 11) {
         ?>
         <div class="info_left">
             <div class="left_title">
-                <span><?php echo GetParentClassName(29);?></span>
+                <span><?php echo GetParentClassName(11);?></span>
             </div>
             <div class="left_list">
                 <ul>
                     <?php
-                    $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=29 AND checkinfo=true ORDER BY orderid ASC");
+                    $dosql->Execute("SELECT * FROM `#@__infoclass` WHERE parentid=11 AND checkinfo=true ORDER BY orderid ASC");
                     while ($row = $dosql->GetArray()) {
                         ?>
                         <?php

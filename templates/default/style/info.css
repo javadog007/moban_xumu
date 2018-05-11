@@ -1,58 +1,10 @@
 .info{
     padding: 20px 15%;
 }
-
-/* 传统二级页样式 START*/
-
-/*.info .info_left{*/
-    /*float: left;*/
-    /*width: 280px;*/
-    /*margin-right: 60px;*/
-/*}*/
-
-/*.info .info_left .left_title{*/
-    /*width: 100%;*/
-    /*height: 110px;*/
-    /*overflow: hidden;*/
-    /*text-align: center;*/
-    /*background: #0668E3;*/
-/*}*/
-
-/*.info .info_left .left_title span{*/
-    /*font-size: 25px;*/
-    /*font-weight: bold;*/
-    /*color: #ffffff;*/
-    /*line-height: 100px;*/
-/*}*/
-
-/*.info .info_left .left_list{*/
-    /*width: 100%;*/
-    /*overflow: hidden;*/
-    /*background: #bfbfbf;*/
-    /*text-align: center;*/
-/*}*/
-
-/*.info .info_left .left_list ul{*/
-
-/*}*/
-
-/*.info .info_left .left_list ul li{*/
-    /*height: 60px;*/
-/*}*/
-
-/*.info .info_left .left_list ul li a{*/
-    /*line-height: 60px;*/
-    /*width: 100%;*/
-    /*font-size: 16px;*/
-    /*color: rgb(129,128,128);*/
-/*}*/
-
-/* 传统二级页样式 END */
-
 /* 会计模板站二级页样式 */
 .info .info_left{
     float: left;
-    width: 270px;
+    width: 20.6%;
     margin-right: 60px;
 }
 
@@ -60,7 +12,7 @@
     width: 100%;
     height: 70px;
     overflow: hidden;
-    background: #0668E3;
+    background: #FD3364;
     text-align: center;
 }
 
@@ -101,12 +53,12 @@
 }
 
 .info .info_left .left_list ul li a.on{
-    background: #0668E3;
+    background: #FD3364;
     color: #fff;
 }
 
 .info .info_left .left_list ul li:hover{
-    background: #0668E3;
+    background: #FD3364;
     background-image: url("../images/info_jiantou.png");
 }
 
@@ -120,7 +72,7 @@
 .info .detail{
     float: left;
 
-    width: 875px;
+    width: 65.7%;
 }
 
 .info .detail .title{

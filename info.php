@@ -25,7 +25,8 @@
 
 </head>
 <body>
-
+<?php require_once('header.php'); ?>
+<?php require_once('banner.php'); ?>
 
 <div class="info clear">
     <?php require_once('left.php'); ?>
@@ -44,7 +45,7 @@
 </div>
 
 
-
+<?php require_once('footer.php'); ?>
 
 </body>
 </html>

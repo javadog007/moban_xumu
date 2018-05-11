@@ -31,8 +31,6 @@ $cid = empty($cid) ? '' : intval($cid); //默认 显示内资公司注册
 <body>
 
 <?php require_once('header.php'); ?>
-
-
 <?php require_once('banner.php'); ?>
 
 <div class="sec_news clear">
