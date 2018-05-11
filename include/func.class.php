@@ -496,6 +496,27 @@ function GetCatName($cid=0)
 }
 
 
+/*
+ * 函数说明：获取当前栏目名称
+ *
+ * @access  public
+ * @param   $cid  int  栏目id
+ * @return  string     返回栏目名称
+ */
+function GetCatDesc($cid=0)
+{
+    global $dosql;
+
+    $r = $dosql->GetOne("SELECT `description` FROM `#@__infoclass` WHERE `id`=$cid");
+
+    if(isset($r['description']))
+        return $r['description'];
+    else
+        return '';
+}
+
+
+
 
 /*
  * 获取当前页面位置

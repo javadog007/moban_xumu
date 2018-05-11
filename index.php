@@ -37,19 +37,28 @@
 
 <div class="pinzhong mt40">
     <div class="big-title">
-        <span>养殖品种</span>
+        <span><?php echo GetCatName(1);?></span>
     </div>
     <div class="redLine"></div>
     <div class="sub-title">
-        <span>常年向社会大量供应西门塔尔、夏洛莱、利木赞、改良牛、奶牛等优良畜牧良种</span>
+        <span><?php echo GetCatDesc(1);?></span>
     </div>
 
     <div class="pingzhong-list normal-list clear">
         <ul>
+            <?php
+            $dosql->Execute("SELECT * FROM `#@__infoimg` WHERE parentid=1 AND checkinfo=true and flag like '%h%' ORDER BY orderid ASC LIMIT 0,4");
+            while($row = $dosql->GetArray()) {
+            if ($row['linkurl'] != '') $gourl = $row['linkurl'];
+            else $gourl = 'javascript:;';
+
+            if ($row['picurl'] != '') $picurl = $row['picurl'];
+            else $picurl = 'javascript:;';
+            ?>
             <li>
                 <div class="pingzhong-pics normal-pics">
-                    <a href="">
-                        <img src="templates/default/images/niu1.jpg" alt="" class="nativePic">
+                    <a href="productshow.php?cid=<?php echo $row['classid'];?>&id=<?php echo $row['id'];?>   ">
+                        <img src="<?php echo $picurl;?>" alt="" class="nativePic">
                         <div class="bg">
                             <img src="templates/default/images/hand.png" alt="">
                         </div>
@@ -57,60 +66,15 @@
                 </div>
 
                 <div class="pingzhong-title normal-title">
-                    <a href="">
-                        <span>西门塔尔牛</span>
+                    <a href="productshow.php?cid=<?php echo $row['classid'];?>&id=<?php echo $row['id'];?>">
+                        <span><?php echo $row['title'];?></span>
                     </a>
                 </div>
             </li>
+                <?php
+            }
+            ?>
 
-            <li>
-                <div class="pingzhong-pics normal-pics">
-                    <a href="">
-                        <img src="templates/default/images/niu1.jpg" alt="" class="nativePic">
-                        <div class="bg">
-                            <img src="templates/default/images/hand.png" alt="">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="pingzhong-title normal-title">
-                    <a href="">
-                        <span>西门塔尔牛</span>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div class="pingzhong-pics normal-pics">
-                    <a href="">
-                        <img src="templates/default/images/niu1.jpg" alt="" class="nativePic">
-                        <div class="bg">
-                            <img src="templates/default/images/hand.png" alt="">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="pingzhong-title normal-title">
-                    <a href="">
-                        <span>西门塔尔牛</span>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div class="pingzhong-pics normal-pics">
-                    <a href="">
-                        <img src="templates/default/images/niu1.jpg" alt="" class="nativePic">
-                        <div class="bg">
-                            <img src="templates/default/images/hand.png" alt="">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="pingzhong-title normal-title">
-                    <a href="">
-                        <span>西门塔尔牛</span>
-                    </a>
-                </div>
-            </li>
 
 
         </ul>
@@ -120,121 +84,40 @@
 
 <div class="base-show mt30">
     <div class="big-title">
-        <span>基地展示</span>
+        <span><?php echo GetCatName(4);?></span>
     </div>
     <div class="redLine"></div>
     <div class="sub-title">
-        <span>国家重点养牛推广示范基地</span>
+        <span><?php echo GetCatDesc(4);?></span>
     </div>
 
     <div class="base-list normal-list clear">
         <ul>
+            <?php
+            $dosql->Execute("SELECT * FROM `#@__infoimg` WHERE parentid=4 AND checkinfo=true and flag like '%h%' ORDER BY orderid ASC LIMIT 0,8");
+            while($row = $dosql->GetArray()) {
+            if ($row['linkurl'] != '') $gourl = $row['linkurl'];
+            else $gourl = 'javascript:;';
+
+            if ($row['picurl'] != '') $picurl = $row['picurl'];
+            else $picurl = 'javascript:;';
+            ?>
             <li style="">
                 <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
+                    <a href="productshow.php?cid=<?php echo $row['classid'];?>&id=<?php echo $row['id'];?>">
+                        <img src="<?php echo $picurl;?>" alt="" class="nativePic">
                     </a>
                 </div>
 
                 <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
+                    <a href="productshow.php?cid=<?php echo $row['classid'];?>&id=<?php echo $row['id'];?>">
+                        <span><?php echo $row['title'];?></span>
                     </a>
                 </div>
             </li>
-
-            <li style="">
-                <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
-                    </a>
-                </div>
-
-                <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
-                    </a>
-                </div>
-            </li>
-            <li style="">
-                <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
-                    </a>
-                </div>
-
-                <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
-                    </a>
-                </div>
-            </li>
-            <li style="">
-                <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
-                    </a>
-                </div>
-
-                <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
-                    </a>
-                </div>
-            </li>
-
-            <li style="">
-                <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
-                    </a>
-                </div>
-
-                <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
-                    </a>
-                </div>
-            </li>
-            <li style="">
-                <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
-                    </a>
-                </div>
-
-                <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
-                    </a>
-                </div>
-            </li>
-            <li style="">
-                <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
-                    </a>
-                </div>
-
-                <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
-                    </a>
-                </div>
-            </li>
-            <li style="">
-                <div class="base-pics">
-                    <a href="">
-                        <img src="templates/default/images/baseimg1.jpg" alt="" class="nativePic">
-                    </a>
-                </div>
-
-                <div class="base-title">
-                    <a href="">
-                        <span>某某养殖基地展示</span>
-                    </a>
-                </div>
-            </li>
+                <?php
+            }
+            ?>
 
         </ul>
     </div>
@@ -463,24 +346,20 @@
 
 <div class="aboutUs mt40">
     <div class="big-title">
-        <span>关于我们</span>
+        <span><?php echo GetCatName(10);?></span>
     </div>
     <div class="redLine"></div>
     <div class="sub-title">
-        <span>XXXXXXXX养殖场是集养殖、育种、科研、推广于一体的大型牧业。</span>
+        <span><?php echo GetCatDesc(10);?></span>
     </div>
 
     <div class="about-list clear">
         <div class="about-left">
             <span>
-                XXXXXXXX养殖场是集养殖、育种、科研、推广于一体的大型牧业。现已成为养殖规模大、科技含量高的现代化大型畜牧良种繁育推广。常年向社会大量供应西门塔尔、夏洛莱、利木赞、改良牛、奶牛等优良畜牧良种。
-
-                 本着“以诚为本，以信为道，以优为胜”，始终坚持对客户负责的原则, 郑重承诺售前：由畜牧师为您详细讲解您所需品种的特点及养殖技术，并根据客户的不同情况为您进行创业预算与建议。售中：客户在我牧业内自由挑选，选定后装车之前，仍可任意调换。
-
-                免费办理检疫出境手续，出具农业部及省畜牧局免疫合格证照；售后：养殖场派技术员跟踪指导，保证百分之百存活率，技术员可根据情况到客户端免费服务一到六个月。解答客户各种疑难问题，满足客户的不同要求，并定期回访。
+              <?php echo Info(10,255);?>
             </span>
 
-            <a href="">了解更多</a>
+            <a href="info.php?cid=10">了解更多</a>
         </div>
 
         <div class="about-right">

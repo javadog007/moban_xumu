@@ -1,6 +1,6 @@
 <?php	if(!defined('IN_PHPMYWIND')) exit('Request Error!');
 
-$cfg_webname = '我的网站';
+$cfg_webname = '北京某某畜牧公司';
 $cfg_weburl = 'http://127.0.0.1';
 $cfg_webpath = '/xumu';
 $cfg_author = '';
@@ -58,4 +58,8 @@ $cfg_qq_appid = '';
 $cfg_qq_appkey = '';
 $cfg_weibo_appid = '';
 $cfg_weibo_appkey = '';
+$cfg_address = '北京大兴某某畜牧基地';
+$cfg_email = '18638840502@163.com';
+$cfg_weibo = '@北京畜牧';
+$cfg_server = '星期一到星期五10:00—18:00';
 ?>
