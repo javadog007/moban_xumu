@@ -1,0 +1,40 @@
+.footer_menu{
+    margin-top: 40px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    height: 5em;
+
+    padding: 10px 5%;
+    width: 100%;
+    background: #fff;
+}
+
+.footer_menu a img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer_menu a p{
+    font-size: 12px;
+    color: #666666;
+    font-weight: 100;
+
+    margin-top: 5px;
+}
+
+.footer_menu ul{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer_menu ul li{
+    float: left;
+    width: 25%;
+}
+
+

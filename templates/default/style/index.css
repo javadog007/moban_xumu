@@ -224,6 +224,7 @@
 .shili-list ul li .shili-subTitle{
     margin-left: 80px;
     margin-top: 8px;
+    cursor: pointer;
 }
 
 .shili-list ul li .shili-subTitle span{

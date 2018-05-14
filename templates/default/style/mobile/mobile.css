@@ -1,11 +1,200 @@
 .header{
     width: 100%;
     text-align: center;
-    height: 3rem;
-    line-height: 3rem;
+    height: 4rem;
+    line-height: 4rem;
 }
 
 .header span{
     font-size: 16px;
     color: rgb(255, 0, 0);
 }
+
+.icon-list{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background: #F9F9F9;
+}
+
+.icon-list ul li{
+    float: left;
+    width: 25%;
+}
+
+.icon-list ul li img{
+    width: 45px;
+    height: 45px;
+}
+
+.icon-list ul li .icon-text{
+    margin-top: 0.5rem;
+}
+
+.icon-list ul li .icon-text a{
+    font-size: 14px;
+    color: rgb(63, 63, 63);
+}
+
+.mpinzhong{
+    margin-top: 2rem;
+}
+
+ .m-big-title{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+ .m-big-title span{
+    font-size: 18px;
+    color: #333333;
+}
+
+ .mredLine{
+    width: 2rem;
+    height: 0.2rem;
+    background: #FE4350;
+    margin: 0 auto;
+}
+
+ .m-sub-title{
+    width: 90%;
+    margin: 1rem auto 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.mpinzhong .mpinzhong-list{
+    padding-top: 2rem;
+}
+
+.mpinzhong .mpinzhong-list ul li{
+    float: left;
+    width: 46%;
+    text-align: center;
+}
+
+.mpinzhong .mpinzhong-list ul li:nth-child(1){
+    margin-left: 2%;
+}
+
+.mpinzhong .mpinzhong-list ul li:nth-child(3){
+    margin-left: 2%;
+}
+
+
+.mpinzhong .mpinzhong-list ul li:nth-child(2){
+    margin-left: 2%;
+}
+
+.mpinzhong .mpinzhong-list ul li:last-child{
+    margin-left: 2%;
+}
+
+.mpinzhong .mpinzhong-list ul li .mpingzhong-img a{
+    display: inline-block;
+}
+
+.mpinzhong .mpinzhong-list ul li .mpingzhong-img a img{
+    width: 12.3rem;
+    height: 12.3rem;
+}
+
+.mpinzhong .mpinzhong-list ul li .mpinzhong-txt{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mpinzhong .mpinzhong-list ul li .mpinzhong-txt span{
+    font-size: 16px;
+    color: #555555;
+}
+
+
+.shili{
+    margin-top: 2rem;
+}
+
+.shili .shili-info{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    padding: 1rem 1rem 1rem 0rem;
+    border: 2px solid #FE3365;
+    margin-top: 1.5rem;
+}
+
+.shili .shili-info ul li{
+
+}
+
+.shili .shili-info ul li .mshili-img{
+    float: left;
+}
+
+.shili .shili-info ul li .mshili-img img{
+    width: 100px;
+    height: 100px;
+}
+
+.shili .shili-info ul li .mshili-bigTitle{
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.shili .shili-info ul li .mshili-bigTitle span{
+    font-size: 16px;
+    color: #555555;
+}
+
+.shili .shili-info ul li .mshili-subTitle{
+
+}
+
+.shili .shili-info ul li .mshili-subTitle span{
+    color: #888888;
+    font-size: 14px;
+}
+
+.buy {
+    margin-top: 2rem;
+}
+
+.buy .buy-liucheng{
+    background: url(../../images/testdata/mredLine.png) no-repeat center 0rem;
+    margin-top: 1.5rem;
+}
+
+.buy .buy-liucheng .buy-container{
+    width: 83%;
+    margin: 0 auto;
+    height: 5rem;
+}
+
+.buy .buy-liucheng .buy-container ul li{
+    float: left;
+    margin-right: 2rem;
+}
+
+.buy .buy-liucheng .buy-container ul li:last-child{
+    margin-right: 0;
+}
+
+.buy .buy-liucheng .buy-container ul li .buy-imgs img{
+    width: 45px;
+    height: 45px;
+}
+
+.buy .buy-liucheng .buy-container ul li .buy-txt{
+
+}
+
+.buy .buy-liucheng .buy-container ul li .buy-txt span{
+    font-size: 14px;
+    color: rgb(89, 89, 89);
+}
+
+

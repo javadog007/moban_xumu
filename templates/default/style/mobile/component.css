@@ -29,14 +29,14 @@
 }
 
 .dl-menuwrapper:first-child {
-    margin-right: 100px;
+    margin-right: 15px;
 }
 
 .dl-menuwrapper button {
     /*background: url(../images/header-bg.png) repeat-x bottom left;*/
     border: none;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     text-indent: -900em;
     overflow: hidden;
     position: absolute;
@@ -51,7 +51,7 @@
 
 
 .dl-menuwrapper ul {
-    background: #6BA1E1;
+    background: #FE4350;
 }
 
 /*

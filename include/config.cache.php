@@ -2,7 +2,7 @@
 
 $cfg_webname = '北京某某畜牧公司';
 $cfg_weburl = 'http://127.0.0.1';
-$cfg_webpath = '/xumu';
+$cfg_webpath = '/moban_xumu';
 $cfg_author = '';
 $cfg_generator = 'PHPMyWind CMS';
 $cfg_seotitle = '';

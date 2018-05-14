@@ -41,4 +41,12 @@ else if($m == 'show')
 	require_once(PHPMYWIND_TEMP.'/default/mobile/show.php');
 	exit();
 }
+
+
+//留言
+else if($m == 'message')
+{
+    require_once(PHPMYWIND_TEMP.'/default/mobile/message.php');
+    exit();
+}
 ?>
