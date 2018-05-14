@@ -35,6 +35,7 @@
 
     <!-- 底部样式 -->
     <link type="text/css" href="<?php echo $cfg_webpath;?>/templates/default/style/mobile/footer.css" rel="stylesheet" >
+
 </head>
 <body>
 <?php require_once(dirname(__FILE__).'/nav.php'); ?>
@@ -55,13 +56,13 @@
     <ul>
         <li>
             <div class="icon-pic">
-                <a href="">
+                <a href="?m=list&cid=8">
                     <img src="<?php echo $cfg_webpath;?>/templates/default/images/testdata/myangzhijishu.png">
                 </a>
             </div>
 
             <div class="icon-text">
-                <a href="">
+                <a href="?m=list&cid=8">
                     养殖技术
                 </a>
             </div>
@@ -69,13 +70,13 @@
 
         <li>
             <div class="icon-pic">
-                <a href="">
+                <a href="?m=list&cid=8">
                     <img src="<?php echo $cfg_webpath;?>/templates/default/images/testdata/mjidizhanshi.png">
                 </a>
             </div>
 
             <div class="icon-text">
-                <a href="">
+                <a href="?m=list&cid=8">
                     基地展示
                 </a>
             </div>
@@ -83,13 +84,13 @@
 
         <li>
             <div class="icon-pic">
-                <a href="">
+                <a href="?m=info&cid=10">
                     <img src="<?php echo $cfg_webpath;?>/templates/default/images/testdata/mguanyuwomen.png">
                 </a>
             </div>
 
             <div class="icon-text">
-                <a href="">
+                <a href="?m=info&cid=10">
                     关于我们
                 </a>
             </div>
@@ -97,18 +98,17 @@
 
         <li>
             <div class="icon-pic">
-                <a href="">
+                <a href="?m=info&cid=11">
                     <img src="<?php echo $cfg_webpath;?>/templates/default/images/testdata/mlianxiwomen.png">
                 </a>
             </div>
 
             <div class="icon-text">
-                <a href="">
+                <a href="?m=info&cid=11">
                     联系我们
                 </a>
             </div>
         </li>
-
 
     </ul>
 </div><!-- icon end -->
@@ -116,59 +116,44 @@
 
 <div class="mpinzhong">
     <div class="m-big-title">
-        <span>养殖品种</span>
+        <span><?php echo GetCatName(1);?></span>
     </div>
 
     <div class="mredLine"></div>
     <div class="m-sub-title">
         <span>
-            向社会供应西门塔尔、夏洛莱、利木赞、改良牛、奶牛等优良畜牧良种
+            <?php echo GetCatDesc(1);?>
         </span>
     </div>
 
     <div class="mpinzhong-list clearfix">
         <ul>
+
+            <?php
+            $dosql->Execute("SELECT * FROM `#@__infoimg` WHERE parentid=1 AND checkinfo=true and flag like '%h%' ORDER BY orderid ASC LIMIT 0,4");
+            while($row = $dosql->GetArray()) {
+            if ($row['linkurl'] != '') $gourl = $row['linkurl'];
+            else $gourl = 'javascript:;';
+
+            if ($row['picurl'] != '') $picurl = $row['picurl'];
+            else $picurl = 'javascript:;';
+            ?>
             <li>
                 <div class="mpingzhong-img">
-                    <a class="" href="">
-                        <img src="<?php echo $cfg_webpath;?>/templates/default/images/mpinzhong.jpg" alt="品种牛">
+                    <a href="?m=img&cid=<?php echo $row['classid'];?>">
+                        <img src="<?php echo $cfg_webpath;?>/<?php echo $row['picurl'];?>" alt="<?php echo $row['title'];?>">
                     </a>
                 </div>
                 <div class="mpinzhong-txt">
-                    <span>鲁西黄牛</span>
+                    <span><?php echo $row['title'];?></span>
                 </div>
             </li>
 
-            <li>
-                <div class="mpingzhong-img">
-                    <a class="" href="">
-                        <img src="<?php echo $cfg_webpath;?>/templates/default/images/mpinzhong.jpg" alt="品种牛">
-                    </a>
-                </div>
-                <div class="mpinzhong-txt">
-                    <span>鲁西黄牛</span>
-                </div>
-            </li>
-            <li>
-                <div class="mpingzhong-img">
-                    <a class="" href="">
-                        <img src="<?php echo $cfg_webpath;?>/templates/default/images/mpinzhong.jpg" alt="品种牛">
-                    </a>
-                </div>
-                <div class="mpinzhong-txt">
-                    <span>鲁西黄牛</span>
-                </div>
-            </li>
-            <li>
-                <div class="mpingzhong-img">
-                    <a class="" href="">
-                        <img src="<?php echo $cfg_webpath;?>/templates/default/images/mpinzhong.jpg" alt="品种牛">
-                    </a>
-                </div>
-                <div class="mpinzhong-txt">
-                    <span>鲁西黄牛</span>
-                </div>
-            </li>
+                <?php
+            }
+            ?>
+
+
         </ul>
     </div>
 </div> <!-- 养殖品种结束 -->
@@ -201,33 +186,6 @@
                     </span>
                 </div>
             </li>
-
-        <!--    <li>
-                <div class="mshili-img">
-                    <img src="<?php /*echo $cfg_webpath;*/?>/templates/default/images/mgou.png">
-                </div>
-                <div class="mshili-bigTitle">
-                    <span>自由选购(交易放心)</span>
-                </div>
-                <div class="mshili-subTitle">
-                    <span>
-                        以客户满意为宗旨，自由选购。来牧业人员，可凭车票报销来牧业车费，对退休干部尊享更多优惠。
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="mshili-img">
-                    <img src="<?php /*echo $cfg_webpath;*/?>/templates/default/images/mtool.png">
-                </div>
-                <div class="mshili-bigTitle">
-                    <span>技术支持(后顾无忧)</span>
-                </div>
-                <div class="mshili-subTitle">
-                    <span>
-                        全城养殖指导，一对一技术专家上门指导，养殖过程全周期跟踪一对一技术专家上门指导。
-                    </span>
-                </div>
-            </li>-->
 
         </ul>
     </div>
@@ -332,9 +290,7 @@
 </div><!-- 购买流程 -->
 
 
-
 <?php require_once(dirname(__FILE__).'/footer_menu.php'); ?>
-
 
 </body>
 </html>

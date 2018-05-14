@@ -8,20 +8,20 @@
 .banner .hd{
     position: absolute;
     bottom: 15px;
-    left: 50%;
     z-index: 1;
-    margin-right: 20px;
+    width: 100%;
 }
 
 .banner .hd ul{
-
+    width: 100%;
+    text-align: center;
 }
 
 .banner .hd ul li{
     width: 20px;
     height: 20px;
     border-radius: 20px;
-    float:left;
+    display: inline-block;
     margin: 0 6px;
     background: #8A8A85;
 }

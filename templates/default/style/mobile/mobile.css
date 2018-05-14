@@ -174,9 +174,14 @@
     height: 5rem;
 }
 
+.buy .buy-liucheng .buy-container ul{
+    width: 100%;
+    text-align: center;
+}
+
 .buy .buy-liucheng .buy-container ul li{
-    float: left;
-    margin-right: 2rem;
+   display: inline-block;
+    margin: 0 0.6rem;
 }
 
 .buy .buy-liucheng .buy-container ul li:last-child{

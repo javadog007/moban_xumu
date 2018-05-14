@@ -97,7 +97,14 @@
                         $picurl = 'templates/default/images/nofoundpic.gif';
                     ?>
                     <li>
-                        <a href="?m=show&cid=<?php echo $row2['classid'];?>&id=<?php echo $row2['id']?>" class="imgarea"><img src="<?php echo $picurl; ?>" title="<?php echo $row2['title']; ?>" /></a><p><a href="?m=show&cid=<?php echo $row['id'];?>&id=<?php echo $row2['id']?>"><?php echo $row2['title']; ?></a></p>
+                        <a href="?m=show&cid=<?php echo $row2['classid'];?>&id=<?php echo $row2['id']?>" class="imgarea">
+                            <img src="<?php echo $picurl; ?>" title="<?php echo $row2['title']; ?>" />
+                        </a>
+                        <p>
+                            <a href="?m=show&cid=<?php echo $row['id'];?>&id=<?php echo $row2['id']?>" style="color: #333333;font-size: 14px;">
+                                <?php echo $row2['title']; ?>
+                            </a>
+                        </p>
                     </li>
                     <?php
                 }

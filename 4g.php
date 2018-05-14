@@ -49,4 +49,12 @@ else if($m == 'message')
     require_once(PHPMYWIND_TEMP.'/default/mobile/message.php');
     exit();
 }
+
+
+//搜索
+else if($m == 'search')
+{
+    require_once(PHPMYWIND_TEMP.'/default/mobile/search.php');
+    exit();
+}
 ?>

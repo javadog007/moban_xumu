@@ -2,38 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b40ba8-b878-410b-8939-dd82f248bcc9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/fonts/hot.OTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/fonts/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/fonts/icomoon.eot@" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/fonts/yoga.OTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/f_address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/f_home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/f_message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/f_tel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/search_index_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/serach_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/wbtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/mobile/banner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/mobile/footer_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/mobile/message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/mobile/nav.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/mobile/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/mobile/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/mobile/show.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/style/mobile/footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/style/mobile/search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/default/images/mobile/back.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4g.php" afterPath="$PROJECT_DIR$/4g.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/config.cache.php" afterPath="$PROJECT_DIR$/include/config.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/mobile/footer_menu.php" afterPath="$PROJECT_DIR$/templates/default/mobile/footer_menu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/mobile/index.php" afterPath="$PROJECT_DIR$/templates/default/mobile/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/mobile/page.php" afterPath="$PROJECT_DIR$/templates/default/mobile/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/style/banner.css" afterPath="$PROJECT_DIR$/templates/default/style/banner.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/style/index.css" afterPath="$PROJECT_DIR$/templates/default/style/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/style/info.css" afterPath="$PROJECT_DIR$/templates/default/style/info.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/style/mobile/banner.css" afterPath="$PROJECT_DIR$/templates/default/style/mobile/banner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/style/mobile/component.css" afterPath="$PROJECT_DIR$/templates/default/style/mobile/component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/style/mobile/mobile.css" afterPath="$PROJECT_DIR$/templates/default/style/mobile/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/style/mobile/page.css" afterPath="$PROJECT_DIR$/templates/default/style/mobile/page.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,84 +28,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/default/mobile/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/default/mobile/show.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="40" column="76" lean-forward="true" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
-              <folding>
-                <marker date="1526269339552" expanded="true" signature="2349:2438" ph="SELECT * FRO... ##@__infoclass" />
-                <marker date="1526269339552" expanded="true" signature="3129:3173" ph="UPDATE `${$t... " />
-                <marker date="1526269339552" expanded="true" signature="3223:3258" ph="SELECT * fro... ${$tbname}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/default/style/mobile/page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/default/mobile/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-660">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1523431441960" expanded="true" signature="2713:2822" ph="SELECT * FRO... ##@__infoimg" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/default/style/mobile/mobile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="173" column="13" lean-forward="false" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/default/mobile/message.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding>
-                <marker date="1526269500775" expanded="true" signature="465:514" ph="SELECT Max(o... ##@__message" />
-                <marker date="1526269500775" expanded="true" signature="850:1055" ph="INSERT INTO `##@__message`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/mobile/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="49" column="55" lean-forward="false" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+            <state relative-caret-position="468">
+              <caret line="94" column="46" lean-forward="true" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
               <folding>
-                <marker date="1526269346268" expanded="true" signature="2196:2285" ph="SELECT * FRO... ##@__infoclass" />
-                <marker date="1526269346268" expanded="true" signature="2758:2955" ph="SELECT * FRO... ##@__infolist" />
-                <marker date="1526269346268" expanded="true" signature="3571:3750" ph="SELECT * FRO... ##@__infoimg" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#li#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1526286909966" expanded="true" signature="2196:2285" ph="SELECT * FRO... ##@__infoclass" />
+                <marker date="1526286909966" expanded="true" signature="2758:2955" ph="SELECT * FRO... ##@__infolist" />
+                <marker date="1526286909966" expanded="true" signature="3571:3750" ph="SELECT * FRO... ##@__infoimg" />
               </folding>
             </state>
           </provider>
@@ -134,8 +46,30 @@
       <file leaf-file-name="footer_menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/mobile/footer_menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+            <state relative-caret-position="506">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/info.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/default/style/info.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -152,12 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.about-list .about-left</find>
-      <find>.buy .buy-list .buy-container ul li:hover:first-child .buy-subTitle</find>
-      <find>.info .info_left</find>
-      <find>.info .detail</find>
-      <find>footer</find>
-      <find>info.css</find>
       <find>.info .info_left .left_title</find>
       <find>page_list</find>
       <find>pingzhong-pics normal-pics</find>
@@ -169,19 +97,25 @@
       <find>mpinzhong-list</find>
       <find>m-big-title</find>
       <find>.shili-list ul li .shili-subTitle</find>
-      <find>index.cs</find>
       <find>mpinzhong-list</find>
       <find>.mpinzhong</find>
       <find>.shili .shili-info</find>
       <find>buy-container</find>
       <find>.buy .buy-liucheng</find>
-      <find>.buy .buy-liucheng .buy-container ul li</find>
       <find>.main_title span</find>
-      <find>page.cs</find>
       <find>.buy .buy-liucheng .buy-container</find>
       <find>page.css</find>
       <find>p</find>
       <find>.mobile_main</find>
+      <find>page.cs</find>
+      <find>.banner .hd</find>
+      <find>icon-pic</find>
+      <find>index.cs</find>
+      <find>.shili-list ul li</find>
+      <find>footer</find>
+      <find>.slideBox .hd</find>
+      <find>.buy .buy-liucheng .buy-container ul li</find>
+      <find>img2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,27 +135,27 @@
         <option value="$PROJECT_DIR$/productshow.php" />
         <option value="$PROJECT_DIR$/product.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/templates/default/style/banner.css" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/left.php" />
         <option value="$PROJECT_DIR$/news.php" />
         <option value="$PROJECT_DIR$/info.php" />
-        <option value="$PROJECT_DIR$/templates/default/style/info.css" />
         <option value="$PROJECT_DIR$/templates/default/style/pageList.css" />
         <option value="$PROJECT_DIR$/include/func.class.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/default/style/mobile/component.css" />
-        <option value="$PROJECT_DIR$/templates/default/style/mobile/banner.css" />
-        <option value="$PROJECT_DIR$/templates/default/style/index.css" />
-        <option value="$PROJECT_DIR$/4g.php" />
-        <option value="$PROJECT_DIR$/templates/default/mobile/index.php" />
-        <option value="$PROJECT_DIR$/templates/default/mobile/footer_menu.php" />
-        <option value="$PROJECT_DIR$/templates/default/style/mobile/mobile.css" />
         <option value="$PROJECT_DIR$/templates/default/mobile/show.php" />
-        <option value="$PROJECT_DIR$/templates/default/mobile/page.php" />
         <option value="$PROJECT_DIR$/templates/default/style/mobile/page.css" />
         <option value="$PROJECT_DIR$/templates/default/mobile/message.php" />
+        <option value="$PROJECT_DIR$/templates/default/mobile/index.php" />
+        <option value="$PROJECT_DIR$/4g.php" />
+        <option value="$PROJECT_DIR$/templates/default/style/banner.css" />
+        <option value="$PROJECT_DIR$/templates/default/style/index.css" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/templates/default/style/mobile/banner.css" />
+        <option value="$PROJECT_DIR$/templates/default/style/mobile/mobile.css" />
+        <option value="$PROJECT_DIR$/templates/default/mobile/page.php" />
+        <option value="$PROJECT_DIR$/templates/default/mobile/footer_menu.php" />
+        <option value="$PROJECT_DIR$/templates/default/style/info.css" />
       </list>
     </option>
   </component>
@@ -233,10 +167,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="269" />
+    <option name="width" value="1664" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -325,9 +258,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\server\htdocs\moban_xumu\templates\default\images\mobile" />
       <recent name="E:\xampp\server\htdocs\moban_xumu\templates\default\mobile" />
       <recent name="E:\xampp\server\htdocs\moban_xumu\templates\default\style\mobile" />
-      <recent name="E:\xampp\server\htdocs\moban_xumu\templates\default\images\mobile" />
       <recent name="E:\xampp\server\htdocs\moban_xumu\templates\default" />
       <recent name="E:\xampp\server\htdocs\xumu" />
     </key>
@@ -410,7 +343,7 @@
       <workItem from="1525829952140" duration="10127000" />
       <workItem from="1525913645944" duration="6827000" />
       <workItem from="1526007955254" duration="12709000" />
-      <workItem from="1526256176780" duration="11186000" />
+      <workItem from="1526256176780" duration="16533000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交代码">
       <created>1525680097773</created>
@@ -447,21 +380,28 @@
       <option name="project" value="LOCAL" />
       <updated>1526029250999</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第一次提交代码">
+      <created>1526278240698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526278240698</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88650000" />
+    <option name="totallyTimeSpent" value="93997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="269" y="0" width="1664" height="1100" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12899786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15087281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -524,6 +464,7 @@
           <caret line="49" column="49" lean-forward="false" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
           <folding>
             <marker date="1526029159360" expanded="true" signature="1636:1750" ph="SELECT * FRO... ##@__infoimg" />
+            <marker date="1526029159360" expanded="true" signature="3254:3368" ph="SELECT * FRO... ##@__infoimg" />
           </folding>
         </state>
       </provider>
@@ -542,6 +483,7 @@
           <caret line="290" column="76" lean-forward="false" selection-start-line="290" selection-start-column="76" selection-end-line="290" selection-end-column="76" />
           <folding>
             <marker date="1526029159360" expanded="true" signature="1636:1750" ph="SELECT * FRO... ##@__infoimg" />
+            <marker date="1526029159360" expanded="true" signature="3254:3368" ph="SELECT * FRO... ##@__infoimg" />
           </folding>
         </state>
       </provider>
@@ -560,6 +502,7 @@
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="23" />
           <folding>
             <marker date="1526029159360" expanded="true" signature="1636:1750" ph="SELECT * FRO... ##@__infoimg" />
+            <marker date="1526029159360" expanded="true" signature="3254:3368" ph="SELECT * FRO... ##@__infoimg" />
           </folding>
         </state>
       </provider>
@@ -663,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/style/banner.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -699,21 +635,6 @@
             <marker date="1525503547417" expanded="true" signature="3048:3199" ph="SELECT * FRO... ##@__infolist" />
             <marker date="1525503547417" expanded="true" signature="3809:3959" ph="SELECT * FRO... ##@__infolist" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/style/info.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -791,17 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="e#583#589#0#HTML" expanded="false" />
-            <element signature="e#589#595#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/mobile/nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -826,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,37 +758,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/style/mobile/banner.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/style/mobile/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="226" column="19" lean-forward="false" selection-start-line="226" selection-start-column="19" selection-end-line="226" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1526029159360" expanded="true" signature="1636:1750" ph="SELECT * FRO... ##@__infoimg" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,14 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4g.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/mobile/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-660">
@@ -904,42 +781,6 @@
           <folding>
             <marker date="1523431441960" expanded="true" signature="2713:2822" ph="SELECT * FRO... ##@__infoimg" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/style/mobile/mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="173" column="13" lean-forward="false" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/mobile/footer_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/mobile/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="49" column="55" lean-forward="false" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-          <folding>
-            <marker date="1526269346268" expanded="true" signature="2196:2285" ph="SELECT * FRO... ##@__infoclass" />
-            <marker date="1526269346268" expanded="true" signature="2758:2955" ph="SELECT * FRO... ##@__infolist" />
-            <marker date="1526269346268" expanded="true" signature="3571:3750" ph="SELECT * FRO... ##@__infoimg" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/mobile/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,6 +812,118 @@
             <marker date="1526269500775" expanded="true" signature="465:514" ph="SELECT Max(o... ##@__message" />
             <marker date="1526269500775" expanded="true" signature="850:1055" ph="INSERT INTO `##@__message`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/style/banner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/mobile/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="36" column="89" lean-forward="false" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1526284043574" expanded="true" signature="4235:4349" ph="SELECT * FRO... ##@__infoimg" />
+            <marker date="1526284043574" expanded="true" signature="5351:5406" ph="..." />
+            <marker date="1526284043574" expanded="true" signature="5469:5514" ph="..." />
+            <marker date="1526284043574" expanded="true" signature="5486:5514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="202" column="13" lean-forward="false" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="370" column="24" lean-forward="false" selection-start-line="370" selection-start-column="24" selection-end-line="370" selection-end-column="24" />
+          <folding>
+            <marker date="1526029159360" expanded="true" signature="1636:1750" ph="SELECT * FRO... ##@__infoimg" />
+            <marker date="1526029159360" expanded="true" signature="3254:3368" ph="SELECT * FRO... ##@__infoimg" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/style/mobile/banner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4g.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="56" column="55" lean-forward="false" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/style/mobile/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="178" column="22" lean-forward="false" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/mobile/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="94" column="46" lean-forward="true" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#li#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1526286909966" expanded="true" signature="2196:2285" ph="SELECT * FRO... ##@__infoclass" />
+            <marker date="1526286909966" expanded="true" signature="2758:2955" ph="SELECT * FRO... ##@__infolist" />
+            <marker date="1526286909966" expanded="true" signature="3571:3750" ph="SELECT * FRO... ##@__infoimg" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/mobile/footer_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/style/info.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
